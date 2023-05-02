@@ -21,6 +21,7 @@ public class StringTokenizerEx1 {
 		String data2 = "홍길동,남,65,170/김새영,여,57,164/이장군,남,80,190/김명수,남,77,167/홍미용,여,64,165";
 		//남자들의 체중의 평균을 구하라.
 		StringTokenizer st2 = new StringTokenizer(data2, "/");
+		
 //		ArrayList<String>  al = new ArrayList<String>();
 //		al.add(st2.nextToken());
 //		al.add(st2.nextToken());

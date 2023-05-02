@@ -1,4 +1,4 @@
-package practice;
+package study;
 
 class Point {
 	private int x, y;

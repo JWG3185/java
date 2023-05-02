@@ -58,12 +58,6 @@ public class GameUnit{
 		        		System.out.print(unit2.name + "의 승리");
 		        		System.exit(1);
 		        	}
-		        	else if (unit2.weapon.getRestPower() <= 0) {
-		        		System.out.println(unit2.name + "의 체력이 다 닳았습니다.");
-		        		System.out.println("게임 끝");
-		        		System.out.print(unit1.name + "의 승리");
-		        		System.exit(1);
-		        	}
 		        	
 		        	if (bossPower <= 0) {
 		        		System.out.println(unit1.name + "의 공격으로 보스가 쓰러졌습니다.");
@@ -76,6 +70,7 @@ public class GameUnit{
 		        	}
 		        	break;
         		}
+        		
         		case "n": {
         			unit1.weapon.charge(p1);
         			System.out.println(p1 + "만큼 체력 회복");
@@ -99,12 +94,6 @@ public class GameUnit{
 		        		System.out.print(unit2.name + "의 승리");
 		        		System.exit(1);
 		        	}
-		        	else if (unit2.weapon.getRestPower() <= 0) {
-		        		System.out.println(unit2.name + "의 체력이 다 닳았습니다.");
-		        		System.out.println("게임 끝");
-		        		System.out.print(unit1.name + "의 승리");
-		        		System.exit(1);
-		        	}
 		        	
 		        	if (bossPower <= 0) {
 		        		System.out.println(unit2.name + "의 공격으로 보스가 쓰러졌습니다.");
@@ -117,6 +106,7 @@ public class GameUnit{
 		        	}
 		        	break;
         		}
+        		
 	        	case "n":{
 	        		unit2.weapon.charge(p2);
 	        		System.out.println(p2 + "만큼 체력 회복");
