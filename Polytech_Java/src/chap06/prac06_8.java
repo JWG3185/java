@@ -18,7 +18,6 @@ public class prac06_8 {
 				s = s.substring(1)+s.charAt(0);
 			}
 			sc.close();
-			System.out.println("d".repeat(10));
 			
 			
 	}
